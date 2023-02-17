@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+</head>
+<link rel="stylesheet" href="estilos.css" />
+<body>
+    <table > 
+
+        <div class="uno">
+            <tr class ="pintar">
+                <td>
+                    <img class="otra" src="imagenes/animelogo.png" width="90px" alt="">
+                </td class ="pintar">
+                <td >
+                    <a href="videos.html">Video</a>
+                </td class ="pintar">
+                <td class ="pintar">
+                    <a href="Formulario.html">Registrarse</a>
+                </td>
+                <td class ="pintar">
+                    <a href="Listas.html">Listas de animes</a>
+                </td>
+                <td class ="pintar">
+                    <a href="Index.html">Menu</a>
+                </td>
+            </tr>
+        </div>
+
+        
+        <div class="dos">
+            <tr>
+                <td colspan="7">
+                    <img class="otras" src="imagenes/sample_a3380b9992ab872dec0332657b716d4c.jpg" width="100%" height="500px" alt="">
+                </td>
+            </tr>
+        </div>
+       
+    </table>
+
+    <form action="#.php" >
+        <table class="Formularioe" >
+            <div >
+                <tr class="Formularioe">
+                    <td  class="Formularioe">
+                        <h1>Registro</h1>
+                    </td>
+                </tr>
+                <br>
+                <tr>
+                    <td colspan="4" class="Formularioe">
+                        <label>Usuario:</label>
+                        <input type="text">
+                    </td>
+                    <td class="Formularioe">
+                        <label>Clave:</label>
+                        <input type="password">
+                    </td>
+                    <td colspan="3" class="Formularioe">
+                        <label>Fecha:</label>
+                        <input type="date" name="fecha" id="fecha">
+                    </td>
+                </tr>
+            </div>
+
+
+            <div >
+                <tr class="Formularioe">
+                    <td colspan="4" class="Formularioe">
+                        <label>Nombre:</label>
+                        <input type="text">
+                    </td>
+                </tr>
+            </div>
+
+            <div >
+                <tr class="Formularioe">
+                    <td class="Formularioe">
+                        <label for="genero">Sexo:</label>
+                    <td>
+                        <input type="radio">Hombre
+                        <br>
+                        <input type="radio">Mujer
+                    </td>
+                    </td class="Formularioe">
+                    <td class="Formularioe">
+                        <label for="genero">Estado Civil</label>
+                    </td>
+                    <td class="Formularioe">
+                        <input type="radio">Soltero
+                        <br>
+                        <input type="radio">Casado
+                    </td>
+                    </td>
+                    <td class="Formularioe"> 
+                        <p>Cancion Favorita:</p>
+                        <select name="cancion" id="cancion"> 
+                            <option value="1">Gurenge by LiSA</option>
+                            <option value="1">『Shinzo Wo Sasageyo!』- Linked Horizon </option>
+                            <option value="1">A Cruel Angel's Thesis</option>
+                        </select>
+                    </td>
+                </tr>
+            </div>
+
+
+            <div >
+                <tr class="Formularioe">
+                    <td class="Formularioe">
+                        <label for="edad">Anime favorito:</label>
+                    <td colspan="4" class="Formularioe">
+                        <input type="checkbox" value=""><label for="">SAO</label>
+                        <br>
+                        <input type="checkbox" value=""><label for="">One Piece</label>
+                        <br>
+                        <input type="checkbox" value=""><label for="">Fairy Tail</label>
+                    </td>
+                    </td class="Formularioe">
+                    <td class="Formularioe">
+                        <p>Descripcion de un anime:</p>
+                        <textarea name="textogrande" id="textox" cols="50" rows="8"></textarea>
+                    </td>
+                </tr>
+            </div>
+            <div >
+                <td class="Formularioe">
+                    <button name ="Registrado" class="btn">Registrarse</button>
+                </td>
+            </div>
+        </table>
+        
+    </form>  
+    
+</body>
+
+</html>
